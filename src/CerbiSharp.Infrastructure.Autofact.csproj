@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <!-- Packaging -->
+	<Title>CerbiSharp.Infrastructure.Autofact</Title>
+	<PackageId>CerbiSharp.Infrastructure.Autofact</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Amir.haf76</Authors>
+	<PackageTags>autofac;di;ioc;dependencyinjection;module</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryType>git</RepositoryType>
+	<RepositoryUrl>https://github.com/amirhaf76/CerbiSharp.Infrastructure.Autofac</RepositoryUrl>
+	<TargetFramework>net9.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" pack="true" PackagePath="." />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="8.3.0" />
+	</ItemGroup>
+
+</Project>
